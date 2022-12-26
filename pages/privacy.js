@@ -7,7 +7,7 @@ const privacy = () => {
         DRIVE ROAN Privacy Policy
       </p>
 
-      <p className='text-lg font-semibold'>
+      <p className=''>
         This Privacy Policy is meant to help you understand what information we collect and why.
       </p>
       <p className='text-2xl font-semibold max-w-xl'>
