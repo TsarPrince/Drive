@@ -145,7 +145,10 @@ export default function Home() {
       </Head>
 
       <div className="space-y-4">
-        <p className="text-slate-700 text-2xl font-semibold">Drive API Test</p>
+        <div className="space-y-2">
+          <p className="text-slate-700 text-2xl font-semibold">Easily manage your Google Drive with - Drive Roan! </p>
+          <p className="text-slate-500 text-lg max-w-lg">Drive Roan uses the Google Drive API which enables you to access resources from Google Drive to create files, manage file sharing, search for files and folders, and more.</p>
+        </div>
         {/* <!--Add buttons to initiate auth sequence and sign out--> */}
         <button style={{ visibility: 'hidden' }} id="authorize_button" onClick={handleAuthClick} className="text-indigo-600 font-semibold underline mr-2 pt-2 px-2 hover:bg-slate-100 ">Authorize</button>
         <button style={{ visibility: 'hidden' }} id="signout_button" onClick={handleSignoutClick} className="text-indigo-600 font-semibold underline mr-2 pt-2 px-2 hover:bg-slate-100 ">Sign Out</button>
