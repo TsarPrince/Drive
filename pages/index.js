@@ -142,6 +142,7 @@ export default function Home() {
 
       <Head>
         <title>Google Drive</title>
+        <meta name="google-site-verification" content="bKjFk2-OkJffbhm-r0ErAdzYBN1Rv8OAuu3V36lR5tI" />
       </Head>
 
       <div className="space-y-4">
