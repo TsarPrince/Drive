@@ -23,10 +23,10 @@ const privacy = () => {
           We want you to understand the types of information we collect as you use our services
         </p>
         <p>
-          It might sound shocking, but we collect absolutely zero amount of your sensitive data. Whatever is there it's just for you to view and explore. We don't even collect your account information, so after a browser refresh, it's all gone!
+          It might sound shocking, but we collect absolutely zero amount of your sensitive data. Whatever is there it’s just for you to view and explore. We don’t even collect your account information, so after a browser refresh, it’s all gone!
         </p>
         <p>
-          All of us have privacy concerns, so do we. We respect your privacy and nothing is 100% secure in today's digital world. So, why to even create a database when we can't guarentee it's security to you. We have done exactly that.
+          All of us have privacy concerns, so do we. We respect your privacy and nothing is 100% secure in today’s digital world. So, why to even create a database when we can’t guarentee it’s security to you. We have done exactly that.
         </p>
       </div>
 
@@ -35,7 +35,7 @@ const privacy = () => {
           Things you create or provide to us
         </p>
         <p>
-          Seems like nothing. We do not store any of the user data (even not your email or name with us). At user's end this comes with a cost of some downfall in UX as we don't remember you everytime time you visit our website, but for us - the developers, it comes with so much of simplicity of not handling even a single database.
+          Seems like nothing. We do not store any of the user data (even not your email or name with us). At user’s end this comes with a cost of some downfall in UX as we don’t remember you everytime time you visit our website, but for us - the developers, it comes with so much of simplicity of not handling even a single database.
         </p>
       </div>
 
@@ -51,13 +51,13 @@ const privacy = () => {
             Your google account, profile photo, display name and preferred language.
           </li>
           <li>
-            Any file owner's google account, profile photo and display name.
+            Any file owner’s google account, profile photo and display name.
           </li>
           <li>
             Your files stored in your google drive account.
           </li>
           <li>
-            Your file's metadata stored in your google drive account.
+            Your file’s metadata stored in your google drive account.
           </li>
         </ul>
       </div>

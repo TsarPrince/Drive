@@ -48,7 +48,7 @@ const terms = () => {
           What you can expect from us
         </p>
         <p>
-          We do not store any of the user data (even not your email or name with us). At user's end this comes with a cost of some downfall in UX as we don't remember you everytime time you visit our website, but for us - the developers, it comes with so much of simplicity of not handling even a single database.
+          We do not store any of the user data (even not your email or name with us). At user’s end this comes with a cost of some downfall in UX as we don’t remember you everytime time you visit our website, but for us - the developers, it comes with so much of simplicity of not handling even a single database.
         </p>
         <p>
           We have kept the things simple. No cookies, no sessions, no risk at all.
