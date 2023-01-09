@@ -45,26 +45,26 @@ const terms = () => {
 
       <div className='space-y-2'>
         <p className='text-lg font-semibold'>
-          What you can expect from us
-        </p>
-        <p>
-          We do not store any of the user data (even not your email or name with us). At user’s end this comes with a cost of some downfall in UX as we don’t remember you everytime time you visit our website, but for us - the developers, it comes with so much of simplicity of not handling even a single database.
-        </p>
-        <p>
-          We have kept the things simple. No cookies, no sessions, no risk at all.
-        </p>
-        <p>
-          We reserve the right to disable direct linking on user accounts that use excessive bandwidth or misuse the system.
-        </p>
-      </div>
-
-      <div className='space-y-2'>
-        <p className='text-lg font-semibold'>
           What we expect from you
+
         </p>
         <p>
-          Follow these terms and service-specific additional terms
+          The DriveRoan Service Agreement describes the terms and conditions under which DriveRoan offers services to you. By using our services, the User agrees to be bound by the following terms and conditions:
         </p>
+        <ul className='space-y-2 list-disc marker:text-indigo-500 ml-5'>
+          <li>
+            We reserve the right to delete Google DMCA-affected files without the user&apos;s knowledge.
+          </li>
+          <li>
+            Pornography, nudity, sexual images and any kind offensive images or videos are prohibited. Copyrighted material are also strictly prohibited. We reserve the right to decide appropriate content and can delete images or videos at any time without User notification.
+          </li>
+          <li>
+            We reserve the right to disable direct linking on user accounts that use excessive bandwidth or misuse the system.
+          </li>
+          <li>
+            Drive Roan is not liable for your images, videos or files or any lost business due to the unavailability or loss of the website. We make no claims of future reliability for your images, videos or files.
+          </li>
+        </ul>
         <p>
           We want to maintain a respectful environment for everyone, which means you must follow these basic rules of conduct:
         </p>

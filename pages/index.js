@@ -79,7 +79,7 @@ export default function Home() {
         throw (resp);
       }
       document.getElementById('signout_button').style.visibility = 'visible';
-      document.getElementById('authorize_button').innerText = 'Refresh';
+      document.getElementById('authorize_button').innerHTML = 'Refresh';
       await listFiles();
     };
 
@@ -101,8 +101,8 @@ export default function Home() {
     if (token !== null) {
       google.accounts.oauth2.revoke(token.access_token);
       gapi.client.setToken('');
-      document.getElementById('content').innerText = '';
-      document.getElementById('authorize_button').innerText = 'Authorize';
+      document.getElementById('content').innerHTML = '';
+      document.getElementById('authorize_button').innerHTML = 'Authorize';
       document.getElementById('signout_button').style.visibility = 'hidden';
       setFiles([]);
     }
@@ -120,12 +120,12 @@ export default function Home() {
         // 'fields': 'files(id, name)',
       });
     } catch (err) {
-      document.getElementById('content').innerText = err.message;
+      document.getElementById('content').innerHTML = err.message;
       return;
     }
     const files = response.result.files;
     if (!files || files.length == 0) {
-      document.getElementById('content').innerText = 'No files found.';
+      document.getElementById('content').innerHTML = 'No files found.';
       return;
     }
     setFiles(files);
@@ -134,7 +134,7 @@ export default function Home() {
     // const output = files.reduce(
     //   (str, file) => `${str}${file.name} (${file.id}\n`,
     //   'Files:\n');
-    // document.getElementById('content').innerText = output;
+    // document.getElementById('content').innerHTML = output;
   }
 
   return (
@@ -151,7 +151,9 @@ export default function Home() {
           <p className="text-slate-500 text-lg max-w-lg">Drive Roan uses the Google Drive API which enables you to access resources from Google Drive to create files, manage file sharing, search for files and folders, and more.</p>
         </div>
         {/* <!--Add buttons to initiate auth sequence and sign out--> */}
-        <button style={{ visibility: 'hidden' }} id="authorize_button" onClick={handleAuthClick} className="text-indigo-600 font-semibold underline mr-2 pt-2 px-2 hover:bg-slate-100 ">Authorize</button>
+        <button style={{ visibility: 'hidden' }} id="authorize_button" onClick={handleAuthClick} className="text-indigo-600 font-semibold underline mr-2 pt-2 px-2 hover:bg-slate-100 ">
+          <img src="/btn_google_signin_dark_normal.png"></img>
+        </button>
         <button style={{ visibility: 'hidden' }} id="signout_button" onClick={handleSignoutClick} className="text-indigo-600 font-semibold underline mr-2 pt-2 px-2 hover:bg-slate-100 ">Sign Out</button>
       </div>
       <pre id="content" style={{ 'whiteSpace': 'pre-wrap' }}></pre>

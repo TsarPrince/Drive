@@ -23,10 +23,10 @@ const privacy = () => {
           We want you to understand the types of information we collect as you use our services
         </p>
         <p>
-          It might sound shocking, but we collect absolutely zero amount of your sensitive data. Whatever is there it’s just for you to view and explore. We don’t even collect your account information, so after a browser refresh, it’s all gone!
+          If you choose to use our Service, then you agree to the collection and use of information in relation with this policy. The Personal Information that we collect are used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
         </p>
         <p>
-          All of us have privacy concerns, so do we. We respect your privacy and nothing is 100% secure in today’s digital world. So, why to even create a database when we can’t guarentee it’s security to you. We have done exactly that.
+          The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at yuudrive.me, unless otherwise defined in this Privacy Policy.
         </p>
       </div>
 
@@ -35,7 +35,7 @@ const privacy = () => {
           Things you create or provide to us
         </p>
         <p>
-          Seems like nothing. We do not store any of the user data (even not your email or name with us). At user’s end this comes with a cost of some downfall in UX as we don’t remember you everytime time you visit our website, but for us - the developers, it comes with so much of simplicity of not handling even a single database.
+          For a better experience while using our Service, we may require you to login by google accounts for verification that you want to use our sharing services. The information that we collect will be used to application access only and not shared with others.
         </p>
       </div>
 
@@ -44,22 +44,52 @@ const privacy = () => {
           Things you share with us (always with your consent)
         </p>
         <p>
-          However we do not store these, but you still share them with us -
+          Drive Roan wants to -
         </p>
         <ul className='space-y-2 list-disc marker:text-indigo-500 ml-5'>
           <li>
-            Your google account, profile photo, display name and preferred language.
+            Create, modify permission folders in your Google Drive
           </li>
           <li>
-            Any file owner’s google account, profile photo and display name.
+            Showing, upload, copy, update, and delete files in your Google Drive
           </li>
           <li>
-            Your files stored in your google drive account.
+            Create, access, update, and delete native Google documents in your Google Drive
           </li>
           <li>
-            Your file’s metadata stored in your google drive account.
+            Manage files and documents in your Google Drive (e.g., search, organize, and modify permissions and other metadata, such as title)
           </li>
         </ul>
+        <p>
+          We will access your Google Drive accounts for implementings our service pages. We do not store your files or folders by any hidden means.
+        </p>
+      </div>
+
+      <div className='space-y-2'>
+        <p className='text-lg font-semibold'>
+          Contact Us
+        </p>
+        <p>
+          If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us via email: <a href='mailto:richardhenry4489@gmail.com' className='text-indigo-700 hover:underline'>richardhenry4489@gmail.com</a>
+        </p>
+      </div>
+      <div className='space-y-2'>
+        <p className='text-lg font-semibold'>
+          Report LINK/DMCA COPYRIGHT
+        </p>
+        <p>
+          Please report abuse including DMCA notification to email: <a href='mailto:richardhenry4489@gmail.com' className='text-indigo-700 hover:underline'>richardhenry4489@gmail.com</a>.
+          We do not host any content we can only delete the page or link requested by our service
+          Please give as much information as possible such as pages / links so we can quickly handle this, we will process your request a maximum of 7x24 hours
+        </p>
+      </div>
+      <div className='space-y-2'>
+        <p className='text-lg font-semibold'>
+          Google Privacy Policy
+        </p>
+        <p>
+          We encourage you to read more for <a href='https://policies.google.com/privacy' className='text-indigo-700 hover:underline'>Google Privacy Policy</a>
+        </p>
       </div>
     </div>
   )
