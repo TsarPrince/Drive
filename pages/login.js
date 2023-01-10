@@ -139,8 +139,7 @@ export default function Home() {
 
 
   const removeFile = (id) => {
-    const filesArr = files;
-    filesArr.filter(file => {
+    const filesArr = files.filter(file => {
       if (file.id != id) {
         return file;
       }
