@@ -137,6 +137,17 @@ export default function Home() {
     // document.getElementById('content').innerHTML = output;
   }
 
+
+  const removeFile = (id) => {
+    const filesArr = files;
+    filesArr.filter(file => {
+      if (file.id != id) {
+        return file;
+      }
+    })
+    setFiles(filesArr)
+  }
+
   return (
     <div className="mx-4 md:mx-12 my-6 space-y-12">
 
@@ -200,6 +211,9 @@ export default function Home() {
                   </div>
                   <div className="flex">
                     {file.webContentLink && <a href={file.webContentLink} className="font-semibold hover:text-indigo-600 hover:underline" target="_blank" rel="noreferrer">Download &darr;</a>}
+                  </div>
+                  <div className="flex">
+                    <button className="font-semibold hover:text-red-600 hover:underline" onClick={() => { removeFile(file.id) }}>Delete this file</button>
                   </div>
                 </div>
               </div>
